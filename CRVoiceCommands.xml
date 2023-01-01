@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang ="en-us" Name="Crunchyroll_en-us">
+    <AppName> Crunchyroll </AppName>
+    <Example> Crunchyroll go to Action</Example>
+
+    <Command Name="findCommand">
+      <Example>find Naruto </Example>
+      <ListenFor > find {newSearch} </ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> find {newSearch} on {builtin:AppName} </ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> find {newSearch} with {builtin:AppName} </ListenFor>
+      <ListenFor RequireAppName="ExplicitlySpecified"> find {newSearch} using {builtin:AppName} </ListenFor>
+      <Feedback> Finding {newSearch} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoAnimeSortCommand">
+      <Example>go to anime a to z</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to anime {sortList} </ListenFor>
+      <Feedback> going to anime {sortList} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoAnimeGenreCommand">
+      <Example>go to anime action</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to anime {genreListAnime} </ListenFor>
+      <Feedback> going to anime {genreListAnime} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoAnimeSeasonCommand">
+      <Example>go to anime season fall 2014</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to anime season {seasonListAnime} </ListenFor>
+      <Feedback> going to anime season {seasonListAnime} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoDramaSortCommand">
+      <Example>go to drama a to z</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to drama {sortList} </ListenFor>
+      <Feedback> going to drama {sortList} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoDramaGenreCommand">
+      <Example>go to drama food</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to drama {genreListDrama} </ListenFor>
+      <Feedback> going to drama {genreListDrama} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoDramaSeasonCommand">
+      <Example>go to drama season fall 2014</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to drama season {seasonListDrama} </ListenFor>
+      <Feedback> going to drama season {seasonListDrama} </Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="gotoCommand">
+      <Example> Crunchyroll go to action</Example>
+      <ListenFor RequireAppName="BeforeOrAfterPhrase"> go to {navigationTarget} </ListenFor>
+      <Feedback> going to {navigationTarget} </Feedback>
+      <Navigate/>
+    </Command>
+    <PhraseList Label="navigationTarget">
+      <Item> New </Item>
+      <Item> Home </Item>
+      <Item> Anime </Item>
+      <Item> Drama </Item>
+      <Item> My Queue </Item>
+      <Item> History </Item>
+    </PhraseList>
+    <PhraseList Label="sortList">
+      <Item> popular </Item>
+      <Item> a to z </Item>
+    </PhraseList>
+    <PhraseList Label="seasonListAnime"/>
+    <PhraseList Label="seasonListDrama"/>
+    <PhraseList Label="genreListAnime"/>
+    <PhraseList Label="genreListDrama"/>
+    <PhraseTopic Label="newSearch" Scenario="Search">
+      <Subject>Series name</Subject>
+    </PhraseTopic>
+  </CommandSet>
+</VoiceCommands>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="CurrentViewTemplateItem" />
+    <RootPropertyPathName Name="FinalMetadataGridLengthHeight" />
+    <RootPropertyPathName Name="FinalImageGridLengthHeight" />
+    <RootPropertyPathName Name="FinalMetadataHeight" />
+    <RootPropertyPathName Name="FinalMetadataWidth" />
+    <RootPropertyPathName Name="MetadataTemplate" />
+    <RootPropertyPathName Name="MetadataContainerStyle" />
+    <RootPropertyPathName Name="FinalImageHeight" />
+    <RootPropertyPathName Name="FinalImageWidth" />
+    <RootPropertyPathName Name="ImageTemplate" />
+    <RootPropertyPathName Name="ImageContainerStyle" />
+    <RootPropertyPathName Name="SelectedViewTemplateItem" />
+    <RootPropertyPathName Name="ImageMinWidth" />
+    <RootPropertyPathName Name="ImageMaxHeight" />
+    <RootPropertyPathName Name="MetadataMinHeight" />
+    <RootPropertyPathName Name="MetadataMaxHeight" />
+    <RootPropertyPathName Name="ImageMaxWidth" />
+    <RootPropertyPathName Name="MetadataMinWidth" />
+    <RootPropertyPathName Name="MetadataMaxWidth" />
+    <RootPropertyPathName Name="FinalMetadatGridLengthWidth" />
+    <RootPropertyPathName Name="FinalImageGridLengthWidth" />
+    <RootPropertyPathName Name="ItemTemplate" />
+    <RootPropertyPathName Name="ItemsSource" />
+    <RootPropertyPathName Name="ActualHeight" />
+    <RootPropertyPathName Name="ActualWidth" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary" />
+    <RootType FullName="CR.WinApp.Controls.FluidGridView" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="TabNavigation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem" />
+    <RootType FullName="Windows.UI.Xaml.UIElement">
+      <RootProperty Name="IsHoldingEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="MaxHeight" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="RelativeSource" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter">
+      <RootProperty Name="CheckBrush" />
+      <RootProperty Name="ContentMargin" />
+      <RootProperty Name="CheckMode" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="CheckBoxBrush" />
+      <RootProperty Name="DragForeground" />
+      <RootProperty Name="DragOpacity" />
+      <RootProperty Name="DragBackground" />
+      <RootProperty Name="DisabledOpacity" />
+      <RootProperty Name="FocusBorderBrush" />
+      <RootProperty Name="FocusSecondaryBorderBrush" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="PointerOverForeground" />
+      <RootProperty Name="PressedBackground" />
+      <RootProperty Name="PlaceholderBackground" />
+      <RootProperty Name="PointerOverBackground" />
+      <RootProperty Name="ReorderHintOffset" />
+      <RootProperty Name="SelectedPressedBackground" />
+      <RootProperty Name="SelectionCheckMarkVisualEnabled" />
+      <RootProperty Name="SelectedForeground" />
+      <RootProperty Name="SelectedPointerOverBackground" />
+      <RootProperty Name="SelectedBackground" />
+      <RootProperty Name="VerticalContentAlignment" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
+    <RootType FullName="CR.WinApp.Controls.SelectedViewProxy">
+      <RootProperty Name="CurrentViewTemplateItem" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="DataFetchSize" />
+      <RootProperty Name="IncrementalLoadingThreshold" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="ItemsPanel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
+      <RootMethod Name="GetIsVerticalRailEnabled" />
+      <RootMethod Name="SetIsVerticalRailEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsWrapGrid" />
+  </Roots.RootTypes>
+</Roots>
